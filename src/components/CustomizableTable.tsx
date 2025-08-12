@@ -198,10 +198,10 @@ export function HospitalTable() {
           </CardTitle>
 
           <div className="flex flex-col sm:flex-row gap-2">
-            <Button size="sm" className="bg-blue-500 hover:bg-blue-700 text-gray-900">
+            {/* <Button size="sm" className="bg-blue-500 hover:bg-blue-700 text-gray-900">
               <Plus className="h-4 w-4 mr-2" />
               Novo Paciente
-            </Button>
+            </Button> */}
             <Button variant="outline" size="sm">
               <Download className="h-4 w-4 mr-2" />
               Exportar
@@ -409,10 +409,10 @@ export function HospitalTable() {
                       </DropdownMenuTrigger>
                       <DropdownMenuContent align="end">
                         <DropdownMenuItem onClick={() => openPatientDetails(patient)}>Ver Detalhes</DropdownMenuItem>
-                        <DropdownMenuItem>Editar</DropdownMenuItem>
+                        {/* <DropdownMenuItem>Editar</DropdownMenuItem>
                         <DropdownMenuItem>Histórico</DropdownMenuItem>
                         <DropdownMenuSeparator />
-                        <DropdownMenuItem className="text-red-600">Dar Alta</DropdownMenuItem>
+                        <DropdownMenuItem className="text-red-600">Dar Alta</DropdownMenuItem> */}
                       </DropdownMenuContent>
                     </DropdownMenu>
                   </td>
