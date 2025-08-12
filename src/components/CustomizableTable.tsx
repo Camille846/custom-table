@@ -78,9 +78,9 @@ export function HospitalTable() {
   }
 
   // Função para sincronizar colunas visíveis com a ordem
-  const syncVisibleColumnsWithOrder = () => {
-    setVisibleColumns(columnOrder)
-  }
+//   const syncVisibleColumnsWithOrder = () => {
+//     setVisibleColumns(columnOrder)
+//   }
 
   // Filtros e busca
   const filteredPatients = useMemo(() => {
