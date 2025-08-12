@@ -13,7 +13,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuLabel,
 } from "./ui/dropdown-menu"
-import { Settings, Search, Eye, Download, Plus, MoreHorizontal, User, Activity, GripVertical } from "lucide-react"
+import { Settings, Search, Eye, Download, MoreHorizontal, User, Activity, GripVertical } from "lucide-react"
 import { hospitalData } from "../data/hospitalData"
 import type { HospitalData } from "../types/hospital"
 import { PatientDetailsModal } from "./PatientDetailsModal"
